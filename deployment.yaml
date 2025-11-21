@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nodejs
-        image: sheetalsshetty/nodejsexam:v2
+        image: sheetalsshetty/nodejsexam:v3
         ports:
         - containerPort: 3000
