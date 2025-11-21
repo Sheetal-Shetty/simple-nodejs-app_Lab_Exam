@@ -1,5 +1,4 @@
-FROM ubuntu:latest
-RUN apt-get update && apt-get install nodejs -y
+FROM node:18
 WORKDIR /app
 COPY *.json .
 RUN npm install
